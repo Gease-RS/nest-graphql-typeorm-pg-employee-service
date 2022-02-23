@@ -31,6 +31,32 @@
 $ nest new nest-graphql-typeorm-pg-employee-service
 ```
 
+## 2. Comandos Geradores
+
+```bash
+$ nest g res employee
+$ nest g r employee --no-spec
+
+#https://docs.nestjs.com/modules
+$ nest g module employee
+
+$ nest g service employee
+```
+
+## 3. Instalando pacote Graphql e Apollo Server Express
+
+```bash
+#https://docs.nestjs.com/graphql/quick-start
+$ yarn add @nestjs/graphql @nestjs/apollo graphql apollo-server-express
+
+```
+
+## 4. Instalação TypeORM e Postgres
+
+```bash
+$ yarn add typeorm pg @nestjs/typeorm
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
